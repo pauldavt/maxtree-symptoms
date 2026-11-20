@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Built max-tree module (see README)
+max-tree-trie/build/
+mta.so
+
+# Trained models (finetune.py, train_logreg.py, run_pipeline.sh)
+runs/
+model_*.pt
+patch_logreg_*.npz
+component_logreg_*.npz
+
+# Visualisations (visualise_relevance.py)
+*_relevance.png
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

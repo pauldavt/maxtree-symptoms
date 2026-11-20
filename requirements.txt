@@ -1,0 +1,9 @@
+# Python packages for the mts scripts.
+# mta.so is not on PyPI: build it from max-tree-trie/ (see README.md).
+# For a GPU build of PyTorch, see https://pytorch.org/get-started/locally/
+numpy
+torch>=2.3          # torch.amp.GradScaler(device, ...)
+torchvision>=0.18   # matches torch 2.3; transforms.v2, ResNet18_Weights
+scikit-learn
+Pillow>=9.1         # Image.Resampling
+tqdm
